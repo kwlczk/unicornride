@@ -6,7 +6,16 @@
 
 
 
+body {
+	background-color: #AFBDE4;
+}
 
+.h2 {
+	font-family: "comic sans";
+	color: #DCC596;
+	font-weight: lighter;
+	text-align: center;
+}
 
 
 
