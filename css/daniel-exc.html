@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.ajax({
+                    url: 'https://api.instagram.com/v1/media/popular?access_token=48298058.f59def8.c908a6cfde3d43ba82a11b0e2595eb52',
+                    dataType: 'jsonp',
+                    success: function(dataWeGotViaJsonp){
+                    	alert("success");
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id = 'feed'></div>
+    </body>
+</html>
